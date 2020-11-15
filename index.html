@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&amp;display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+  <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pretty or not </title>
+</head>
+
+<body>
+
+  <h2>Upload your photo and know if you are pretty </h2>
+<div id = "flex-container">
+  <div id ="fileuploader">
+  <input type="file" class="filepond" name="filepond" multiple data-allow-reorder="true" data-max-file-size="3MB"
+    data-max-files="3" value="">
+</div>
+</div>
+  </div>
+  <button class="rainbow rainbow-1" id = "pidor"> If I am pretty?</button>
+  <h2 id = "output"></h2>
+  <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+  <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+  <script src ="./script.js"></script>
+
+</body>
+
+</html>
